@@ -9,7 +9,6 @@ std::string getCurrentTimestamp() {
 }
 
 std::string generateTransactionId() {
-    //todo
     std::string transactionId = "TXN" + std::to_string(time(0));
     return transactionId;
 }
