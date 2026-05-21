@@ -18,5 +18,8 @@ struct Transaction {
     Status status;
 };
 
+Transaction createTransaction(std::string cardNumber, double amount, std::string merchantId);
+std::string generateTransactionId();
+std::string getCurrentTimestamp();
 
 #endif
