@@ -4,6 +4,8 @@
 #ifndef LOGGER_H
 #define LOGGER_H
 
+#include "transaction.h"
+
 void logTransaction(const Transaction& transaction);
 
 #endif
